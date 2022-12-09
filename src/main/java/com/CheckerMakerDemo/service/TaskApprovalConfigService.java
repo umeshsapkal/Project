@@ -41,7 +41,7 @@ public class TaskApprovalConfigService {
 	 }
 	 
 	 
-	 public List<TaskApprovalConfigDemo> findFuntionByCodeshubham(FunctionCode functioncode){
+	 public List<TaskApprovalConfigDemo> findFuntionByCodeshubhamsakhare(FunctionCode functioncode){
 		 
 		 
 		return approvalConfigRepo.getByFunctionCode(functioncode);
