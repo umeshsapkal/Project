@@ -9,7 +9,6 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 import com.CheckerMakerDemo.enums.ApprovalStatus;
 import com.CheckerMakerDemo.enums.FunctionCode;
@@ -17,8 +16,6 @@ import com.CheckerMakerDemo.enums.RequestActionCode;
 import com.CheckerMakerDemo.enums.TaskAction;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 //import co.boost.bank.common.model.persistence.BaseEntity;
 
